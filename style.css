@@ -1,0 +1,265 @@
+    /*body of html page*/
+body {
+        font-family: Arial, sans-serif;
+    }
+    /*Header*/
+ header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        background-color: beige;
+        padding-left: 10px;
+    }
+    /*Logo*/
+#logo {
+       font-size: 24px;
+       font-weight: bold;
+       color: #333;
+       margin-right: 10px;
+} 
+/*Slogan*/
+#slogan{
+        font-size: 16px;
+        color: #666; 
+        margin-top: 5px;
+        margin-left: auto;
+}
+ /*Header image*/
+header img{
+    height: 60%;
+}     
+
+
+
+/*Main*/
+
+ main {
+       display: flex;
+       height:700px;
+   }
+
+
+/*Left sidebar and right sidebar*/   
+.sidebar-left,.sidebar-right{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-around;
+       background-color:brown;
+       color: brown;
+       width: 25%;
+       padding: 20px;
+             }
+
+/*The flex-item of left sidebar*/
+.flex-item1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color:beige;
+        padding: 10px;
+        border-radius: 10px;
+        width: 40%;
+        height: 10%;
+        font-size: 70%;
+        color: black;
+    }     
+
+ /*The flex-item  image of  left sidebar*/   
+ .flex-item1 img {
+      
+       height: 30px;
+       width: 35%;
+      
+    } 
+    .currency-info {
+        font-size: 12px;
+        color: #888;
+    }
+            
+    /*red arrow*/
+    .decrease-button {
+        color: #FF0000; 
+        border: none;
+        background: none;
+        cursor: pointer;
+       
+    }  
+    /*green arrow*/ 
+    .increase-arrow {
+        color: #008000; /* Yeşil renk */
+        cursor: pointer;
+    }
+  /*The main content*/  
+.main-content {
+        padding: 20px;
+        background-color:beige;
+        width:50% ;
+        margin: 0;
+        padding-top: 0;
+        color:brown;
+        text-align: center;
+     
+}  
+
+
+
+/*The title of main content*/
+.title
+{   
+    color:papayawhip;
+    background-color: brown;
+    height: 40px;
+    padding-top: 10px;
+   
+
+}
+
+
+ /*The flex-item  of  right sidebar*/   
+
+.flex-item2{
+        text-align: center;
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color:beige;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        width: 60%;
+        height: 25%;
+        color:#666;
+        }
+
+ /*The flex-item  image of  right sidebar*/   
+.flex-item2 img{
+    width: 40%;
+    height: 40px;
+}
+
+/*profil setting and customer services buton*/
+.buton {
+    margin-top: 5px;
+    display: block;
+    width: 90%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6c757d;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+/*İnformation of account*/
+.information{
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+     width: 90%;
+    height: 40%;
+    background-color:beige;
+  }          
+ /*Cash of account*/ 
+ .cash{
+ border-radius: 10px;
+ border: 2px solid gray;
+ padding: 10px;
+ padding-bottom: 0;
+
+ 
+
+ }
+
+ /* The previous transiction boxes*/
+ .box{
+
+    display: block;
+        width: 60%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: beige;
+        color: brown;
+       
+        text-align: center;
+   
+    }
+.sidebar-right p{
+        color:beige;
+    }
+
+
+   
+    
+   
+/*footer*/    
+footer{
+
+        background-color: rgb(166, 43, 43,0.9);
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+}
+
+.section{
+  
+    height: 90px;
+    margin-top: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+
+    
+    }
+ /*The flex-item   of section*/ 
+.flex-item3{
+     display: flex;
+     justify-content: space-around;
+     background-color: rgba(255, 239, 213, 0.4);
+     color: black;
+     padding: 10px;
+     border-radius: 10px;
+     margin-bottom: 10px;
+     width: 25%;
+     height:90%;
+     padding-top: 25px;
+     font-size:15px ;} 
+ 
+ /*The flex-item  image of section*/  
+        
+ .flex-item3 img{
+    width: 20%;
+    height: 55%;
+  
+ }    
+ 
+ /*Responsive Design*/
+ @media only screen and (max-width: 1024px) {
+    body {
+        font-size: 12px;
+    }
+    #logo {
+        font-size: 20px;
+       
+    } 
+    #slogan{
+        font-size: 12px;
+      
+     }
+    footer p{
+    font-size: 11px;
+ }
+    .box {
+    font-size: 8px;
+ }
+ 
+
+}
+
+
+
